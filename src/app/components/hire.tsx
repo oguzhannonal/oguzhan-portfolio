@@ -1,6 +1,6 @@
 import Image from "next/image";
 import profile from "@/app/public/images/profile.jpeg";
-import { FaGithub,FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export default function Hire() {
   return (
@@ -16,7 +16,7 @@ export default function Hire() {
         <div className="mt-7 text-[21px] font-regular">
           Design and code frontend, backend applications with passion
         </div>
-        <button className="bg-orange-400 text-white rounded-[5px] px-4 py-2  grow-0 w-max  mt-5 ">
+        <button className="bg-orange-500 text-white rounded-[5px] px-4 py-2  grow-0 w-max  mt-5 hover:bg-orange-400 transition-colors duration-300">
           Contact Me
         </button>
       </div>
@@ -28,9 +28,9 @@ export default function Hire() {
           height={617}
           className="rounded-full"
         ></Image>
-        <div className="flex mx-auto mt-9 gap-6 " >
-            <FaGithub  className="text-2xl" ></FaGithub>
-            <FaLinkedin  className="text-2xl"></FaLinkedin>
+        <div className="flex mx-auto mt-9 gap-6 ">
+          <FaGithub className="text-2xl"></FaGithub>
+          <FaLinkedin className="text-2xl"></FaLinkedin>
         </div>
       </div>
     </div>

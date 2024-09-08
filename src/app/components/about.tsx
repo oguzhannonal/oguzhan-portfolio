@@ -4,8 +4,9 @@ export default function About() {
       <h1 className="text-[65px] font-semibold">About Me</h1>
       <p className="font-regular text-[21px] mt-4">
         I am a fullstack developer who is passionate about various technologies
-        and tools. I am currently working with Python, React, Vue, Nuxt,
-        Next.js, Node.js, and Postgresql. I am also interested in learning new
+        and tools. I have 3 years of experience in web development.I am
+        currently working with Python, React, Vue, Nuxt, Next.js, Node.js, and
+        Postgresql, AWS, Docker. I am also interested in learning new
         technologies and tools. I am a quick learner and a team player.
       </p>
       <div className="prose font-regular text-[21px] mt-4">
