@@ -29,8 +29,8 @@ export default function Hire() {
           className="rounded-full"
         ></Image>
         <div className="flex mx-auto mt-9 gap-6 ">
-          <FaGithub className="text-2xl"></FaGithub>
-          <FaLinkedin className="text-2xl"></FaLinkedin>
+          <FaGithub className="text-3xl"></FaGithub>
+          <FaLinkedin className="text-3xl"></FaLinkedin>
         </div>
       </div>
     </div>
