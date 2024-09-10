@@ -1,21 +1,39 @@
-import Button from "../shared/button";
-
-export default function Build() {
+export default function Contact() {
   return (
-    <div className="self-center mt-28">
+    <div className="self-center mx-auto max-w-[1400px]  p-4 mt-20 md:mt-40">
       <div>
-        <h1 className="font-semibold text-[65px]">
+        <h1 className="font-semibold text-[40px] md:text-[65px] text-center">
           Let’s Build Something Great Together
         </h1>
-        <p className="font-regular text-[21px] text-center">
+        <p className="font-regular text-[16px] md:text-[21px] text-center">
           Ready to bring your vision to life? Let’s connect and turn your ideas
           into reality.
         </p>
       </div>
       <div>
-        <form className="mt-8 flex flex-col">
+        <form
+          className="mt-8 flex flex-col"
+          action="https://api.web3forms.com/submit"
+          method="POST"
+        >
+          <input
+            type="hidden"
+            name="redirect"
+            value="https://yourwebsite.com/thanks.html"
+          ></input>
+          <input
+            type="hidden"
+            name="access_key"
+            value="3e42b85f-6981-4a10-9965-c60c55de4919"
+          />
+          <input
+            type="hidden"
+            name="subject"
+            value="New Contact Form Personal Website"
+          />
+          <input type="hidden" name="from_name" value="My Website" />
           <div className="flex flex-col">
-            <label htmlFor="name" className="font-semibold text-[21px]">
+            <label htmlFor="name" className="font-semibold text-[16px]">
               Name
             </label>
             <input
@@ -26,7 +44,7 @@ export default function Build() {
             />
           </div>
           <div className="flex flex-col mt-4">
-            <label htmlFor="email" className="font-semibold text-[21px]">
+            <label htmlFor="email" className="font-semibold text-[16px]">
               Email
             </label>
             <input
@@ -37,7 +55,7 @@ export default function Build() {
             />
           </div>
           <div className="flex flex-col mt-4">
-            <label htmlFor="message" className="font-semibold text-[21px] ">
+            <label htmlFor="message" className="font-semibold text-[16px] ">
               Message
             </label>
             <textarea

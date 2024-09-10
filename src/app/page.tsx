@@ -1,20 +1,20 @@
-import About from "./components/about";
-import Build from "./components/build";
-import Footer from "./components/footer";
-import Hire from "./components/hire";
-import Navbar from "./components/navbar";
-import Services from "./components/services";
+import About from "./pages/about";
+import Contact from "./pages/contact";
+import Footer from "./pages/footer";
+import Hero from "./pages/hero";
+import Navbar from "./pages/navbar";
+import Services from "./pages/services";
+import Skills from "./pages/skills";
 
 export default function Home() {
   return (
     <div>
-      <div className="mt-[68px] px-[10rem] 2xl:px-[25rem] md:px-0 flex flex-col  ">
-        <Navbar></Navbar>
-        <Hire></Hire>
-        <About></About>
-        <Services></Services>
-        <Build></Build>
-      </div>
+      <Navbar></Navbar>
+      <Hero></Hero>
+      <About></About>
+      <Services></Services>
+      <Skills></Skills>
+      <Contact></Contact>
       <Footer></Footer>
     </div>
   );
