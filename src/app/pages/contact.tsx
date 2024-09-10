@@ -1,6 +1,9 @@
 export default function Contact() {
   return (
-    <div className="self-center mx-auto max-w-[1400px]  p-4 mt-20 md:mt-40">
+    <div
+      className="self-center mx-auto max-w-[1400px]  p-4 mt-20 md:mt-40"
+      id="contact"
+    >
       <div>
         <h1 className="font-semibold text-[40px] md:text-[65px] text-center">
           Let’s Build Something Great Together
