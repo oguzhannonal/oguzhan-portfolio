@@ -26,9 +26,12 @@ export default function Hero() {
               Design and code frontend, backend applications with passion
             </p>
             <div className="self-start">
-              <button className="bg-orange-500 text-white rounded p-2   grow-0  w-max hover:bg-orange-400 transition-colors duration-300  self-end ">
+              <a
+                href="#contact"
+                className="bg-orange-500 text-white rounded p-2   grow-0  w-max hover:bg-orange-400 transition-colors duration-300  self-end "
+              >
                 Contact Me
-              </button>
+              </a>
             </div>
           </div>
         </div>
