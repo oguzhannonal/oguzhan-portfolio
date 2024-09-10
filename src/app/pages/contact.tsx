@@ -22,7 +22,7 @@ export default function Contact() {
           <input
             type="hidden"
             name="redirect"
-            value="https://oguzhanonal.vercel.app/"
+            value="https://oguzhanonal.me/"
           ></input>
           <input
             type="hidden"
