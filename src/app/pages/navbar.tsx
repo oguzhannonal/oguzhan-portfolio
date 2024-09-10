@@ -31,7 +31,7 @@ export default function Navbar() {
       {/* Links for desktop */}
       <div className="hidden md:flex space-x-10 items-center">
         <a
-          href="#"
+          href="#home"
           className="hover:text-orange-400 transition all duration-300"
         >
           Home
@@ -70,19 +70,16 @@ export default function Navbar() {
       {/* Mobile Menu */}
       {isMenuOpen && (
         <div className="absolute top-16 left-0 w-full bg-white flex flex-col items-center md:hidden transition-all">
-          <a href="#" className="py-2 hover:text-orange-400 ">
+          <a href="#home" className="py-2 hover:text-orange-400 ">
             Home
           </a>
-          <a href="#" className="py-2 hover:text-orange-400">
+          <a href="#about" className="py-2 hover:text-orange-400">
             About
           </a>
-          <a href="#" className="py-2 hover:text-orange-400">
+          <a href="#services" className="py-2 hover:text-orange-400">
             Services
           </a>
-          <a href="#" className="py-2 hover:text-orange-400">
-            My Skills
-          </a>
-          <a href="#" className="py-2 hover:text-orange-400">
+          <a href="#contact" className="py-2 hover:text-orange-400">
             Contact
           </a>
           <button
