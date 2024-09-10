@@ -29,8 +29,8 @@ export default function Services() {
                 Backend Development
               </h1>
               <p>
-                Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa
-                nibh lectus netus in. Aliquet donec morbi convallis pretium
+                I can help you with your backend projects. I have experience in
+                AWS, Docker, Node.js, Postgresql
               </p>
             </div>
           </div>
@@ -49,8 +49,8 @@ export default function Services() {
                 Frontend Development
               </h1>
               <p>
-                Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa
-                nibh lectus netus in. Aliquet donec morbi convallis pretium
+                I can help you with your frontend projects. I have experience in
+                React, Vue, Nuxt, Next.js
               </p>
             </div>
           </div>
@@ -69,8 +69,8 @@ export default function Services() {
                 Python
               </h1>
               <p>
-                Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa
-                nibh lectus netus in. Aliquet donec morbi convallis pretium
+                I can help you with your Python projects. I have experience in
+                data scraping, selenium.
               </p>
             </div>
           </div>
