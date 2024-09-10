@@ -69,17 +69,33 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className="absolute top-16 left-0 w-full bg-white flex flex-col items-center md:hidden transition-all">
-          <a href="#home" className="py-2 hover:text-orange-400 ">
+        <div className="absolute top-16 left-0 w-full bg-white flex flex-col items-center md:hidden transition-all pb-5">
+          <a
+            href="#home"
+            className="py-2 hover:text-orange-400 "
+            onClick={() => setIsMenuOpen(false)}
+          >
             Home
           </a>
-          <a href="#about" className="py-2 hover:text-orange-400">
+          <a
+            href="#about"
+            className="py-2 hover:text-orange-400"
+            onClick={() => setIsMenuOpen(false)}
+          >
             About
           </a>
-          <a href="#services" className="py-2 hover:text-orange-400">
+          <a
+            href="#services"
+            className="py-2 hover:text-orange-400"
+            onClick={() => setIsMenuOpen(false)}
+          >
             Services
           </a>
-          <a href="#contact" className="py-2 hover:text-orange-400">
+          <a
+            href="#contact"
+            className="py-2 hover:text-orange-400"
+            onClick={() => setIsMenuOpen(false)}
+          >
             Contact
           </a>
           <button
