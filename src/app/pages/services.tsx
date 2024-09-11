@@ -5,7 +5,7 @@ import web from "@/app/public/images/web.png";
 export default function Services() {
   return (
     <section id="services">
-      <div className="mx-auto max-w-[1400px] p-4 text-[16px] md:text-[21px] mt-20 md:mt-40">
+      <div className=" container px-10 mx-auto p-4 text-[16px] md:text-[21px] mt-20 md:mt-40">
         <h1 className="font-bold text-[40px] text-center md:text-[65px]">
           Services
         </h1>

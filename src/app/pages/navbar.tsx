@@ -5,7 +5,7 @@ export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <nav className="flex justify-between items-center p-4 mx-auto max-w-[1400px] text-[16px] md:text-[21px] ">
+    <nav className=" mx-auto container px-10 flex justify-between items-center p-4 text-[16px] md:text-[21px] ">
       <div></div>
 
       {/* Hamburger Icon (for mobile) */}

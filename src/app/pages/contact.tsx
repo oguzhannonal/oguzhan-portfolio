@@ -1,7 +1,7 @@
 export default function Contact() {
   return (
     <div
-      className="self-center mx-auto max-w-[1400px]  p-4 mt-20 md:mt-40"
+      className=" mx-auto container px-10 self-center p-4 mt-20 md:mt-40"
       id="contact"
     >
       <div>

@@ -5,7 +5,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 export default function Hero() {
   return (
     <section>
-      <div className="mx-auto max-w-[1400px] p-4 grid grid-cols-1 md:grid-cols-3 gap-4 mt-10">
+      <div className=" mx-auto container px-10 p-4 grid grid-cols-1 md:grid-cols-3 gap-4 mt-10">
         <div className="md:col-span-2">
           <div className="font-semibold text-[21px] md:text-[24px]">
             Hi I am{" "}
@@ -13,11 +13,11 @@ export default function Hero() {
           <div className="font-semibold text-[21px] md:text-[24px] text-orange-400">
             Oguzhan Onal
           </div>
-          <div className="flex flex-col max-w-[300px]  md:max-w-[700px]">
-            <div className=" font-bold text-[40px] md:text-[100px] ">
+          <div className="  ">
+            <div className=" font-bold text-[40px] sm:text-[60px] md:text-[100px] ">
               Fullstack
             </div>
-            <div className="self-end font-bold text-[40px] md:text-[100px]">
+            <div className=" pl-10  md:pl-20 lg:pl-30 xl:pl-40 font-bold text-[40px] sm:text-[60px] md:text-[100px]">
               Developer
             </div>
           </div>
